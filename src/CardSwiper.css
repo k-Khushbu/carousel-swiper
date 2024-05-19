@@ -1,0 +1,56 @@
+/* src/components/CardSwiper.css */
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff; /* Change the color of the navigation buttons */
+  background-color: rgba(0, 0, 0, 0.5); /* Add a background color */
+  border-radius: 50%; /* Make the buttons round */
+  width: 40px !important; /* Set the width */
+  height: 40px !important; /* Set the height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.1rem !important; /* Increase the size of the arrow icon */
+}
+
+.card{
+    margin: 30px !important;
+}
+
+.swiper-slide{
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .swiper-slide{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .swiper-slide{
+        margin-left: 230px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .swiper-slide{
+        margin-left: 160px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .swiper-slide{
+        margin-left: 90px;
+    }
+}
+
